@@ -135,7 +135,7 @@ body{
 
 @media (max-width: 480px){
     .about-section{
-        padding: 40px 15px;
+        padding: 10px 10px;
     }
 
     .about-container{
@@ -149,5 +149,136 @@ body{
 
     .about-content p{
         font-size: 16px;
+    }
+}
+
+/* habilidades */
+
+.skills-section{
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, aliceblue, #fae8e0);
+}
+
+.skills-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skills-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills-title h2{
+    font-size: 48px;
+    color: #a36b76;
+}
+
+.skills-table-box{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(163, 107, 118, 0.15);
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: 0 10px 28px rgba(163, 107, 118, 0.10);
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+thead{
+    background: #ef7c8e;
+    color: aliceblue;
+}
+
+th,
+td{
+    padding: 16px;
+    text-align: left;
+}
+
+tbody tr{
+    background: rgba(250, 232, 224, 0.55);
+    border-bottom: 1px solid rgba(163, 107, 118, 0.12);
+}
+
+tbody tr:nth-child(even){
+    background: rgba(255, 255, 255, 0.8);
+}
+
+tbody tr:hover{
+    background: rgba(239, 124, 142, 0.14);
+}
+
+.skills-lists{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.skills-card{
+    flex: 1;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(163, 107, 118, 0.15);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 28px rgba(163, 107, 118, 0.10);
+}
+
+.skills-card h3{
+    color: #a36b76;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.skills-card ul,
+.skills-card ol{
+    color: #7d5560;
+    line-height: 1.8;
+}
+
+.skills-card li{
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .skills-title h2{
+        font-size: 38px;
+    }
+
+    .skills-lists{
+        flex-direction: column;
+    }
+
+    th,
+    td{
+        padding: 14px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px){
+    .skills-section{
+        padding: 40px 15px;
+    }
+
+    .skills-title h2{
+        font-size: 32px;
+    }
+
+    .skills-card{
+        padding: 22px;
+    }
+
+    th,
+    td{
+        padding: 12px;
+        font-size: 14px;
     }
 }

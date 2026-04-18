@@ -16,7 +16,7 @@
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#proyectos">Proyectos</a>
-            <a href="#">Contacto</a>
+            <a href="#contacto">Contacto</a>
         </div>
     </nav>
     <main>
@@ -172,6 +172,61 @@
                                 <a href="#" target="_blank">Ver repositorio →</a>
                             </figcaption>
                         </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-title">
+                    <p class="section-label">Hablemos</p>
+                    <h2 class="changa-one-regular">Contacto</h2>
+                </div>
+
+                <div class="contact-content">
+                    <article class="contact-info-box">
+                        <h3>¿Te gustaría trabajar conmigo?</h3>
+                        <p>
+                            Si quieres comunicarte conmigo para un proyecto, colaboración
+                            o consulta, puedes completar este formulario.
+                        </p>
+
+                        <ul class="contact-details">
+                            <li><strong>Email:</strong> mariajose.escobar@inacapmail.cl</li>
+                            <li><strong>Ubicación:</strong> Chile</li>
+                            <li><strong>Disponibilidad:</strong> Proyectos académicos y creativos</li>
+                        </ul>
+                    </article>
+
+                    <article class="contact-form-box">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="asunto">Asunto</label>
+                                <select id="asunto" name="asunto" required>
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="proyecto">Proyecto</option>
+                                    <option value="colaboracion">Colaboración</option>
+                                    <option value="consulta">Consulta</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+
+                            <button type="submit">Enviar mensaje</button>
+                        </form>
                     </article>
                 </div>
             </div>

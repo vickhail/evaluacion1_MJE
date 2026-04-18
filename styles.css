@@ -25,6 +25,7 @@
     background: #ef7c8e;
     padding: 10px;
     color: aliceblue;
+    border-bottom: 3px solid #38761D;
 }
 
 .logo{
@@ -90,7 +91,7 @@ body{
 }
 
 .section-label{
-    color: #ef7c8e;
+    color: #38761D;
     font-size: 15px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -192,7 +193,7 @@ table{
 }
 
 thead{
-    background: #ef7c8e;
+    background: linear-gradient(135deg, #ef7c8e, #38761D);
     color: aliceblue;
 }
 
@@ -212,7 +213,7 @@ tbody tr:nth-child(even){
 }
 
 tbody tr:hover{
-    background: rgba(239, 124, 142, 0.14);
+    background: rgba(56, 118, 29, 0.15);
 }
 
 .skills-lists{
@@ -231,7 +232,7 @@ tbody tr:hover{
 }
 
 .skills-card h3{
-    color: #a36b76;
+    color: #38761D;
     margin-bottom: 16px;
     font-size: 24px;
 }
@@ -354,7 +355,7 @@ figcaption{
 }
 
 figcaption h3{
-    color: #a36b76;
+    color: #38761D;
     margin-bottom: 10px;
 }
 
@@ -369,7 +370,7 @@ figcaption a{
 }
 
 figcaption a:hover{
-    color: #a36b76;
+    color: #38761D;
 }
 
 /* RESPONSIVE */
@@ -443,7 +444,7 @@ figcaption a:hover{
 }
 
 .contact-info-box h3{
-    color: #a36b76;
+    color: #38761D;
     font-size: 28px;
     margin-bottom: 15px;
 }
@@ -501,7 +502,7 @@ figcaption a:hover{
     border: none;
     padding: 15px;
     border-radius: 14px;
-    background: #ef7c8e;
+    background:linear-gradient(135deg, #ef7c8e, #38761D);
     color: aliceblue;
     font-size: 16px;
     font-weight: bold;

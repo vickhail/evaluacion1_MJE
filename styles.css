@@ -331,6 +331,36 @@ figcaption a:hover{
     color: var(--color-verde);
 }
 
+/* aside */
+
+.extra-info{
+    padding: 20px 20px;
+    background: linear-gradient(to bottom, var(--color-fondo-claro), var(--color-rosa-suave));
+}
+
+.extra-info-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--color-blanco-transparente-75);
+    border: 1px solid var(--color-borde-suave);
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 12px 30px var(--color-sombra-card-fuerte);
+    text-align: center;
+}
+
+.extra-info-container h2{
+    font-size: 40px;
+    color: var(--color-malva);
+    margin-bottom: 15px;
+}
+
+.extra-info-container p{
+    color: var(--color-texto-secundario);
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
 /* contacto */
 
 .contact-section{
@@ -486,6 +516,15 @@ figcaption a:hover{
     font-size: 14px;
 }
 
+footer {
+    background-color: var(--color-verde);
+    color: var(--color-rosa-suave);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
 /* responsive design */
 
 @media (max-width: 768px){
@@ -577,15 +616,10 @@ figcaption a:hover{
         justify-content: center;
         flex-wrap: wrap;
     }
-}
 
-footer {
-    background-color: var(--color-verde);
-    color: var(--color-rosa-suave);
-    text-align: center;
-    padding: 5px;
-    font-size: 0.85rem;
-    letter-spacing: 0.5px;
+    .extra-info-container h2{
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 480px){
@@ -711,5 +745,21 @@ footer {
     .footer-copy,
     .footer-links a{
         font-size: 14px;
+    }
+
+    .extra-info{
+        padding: 30px 15px;
+    }
+
+    .extra-info-container{
+        padding: 22px 18px;
+    }
+
+    .extra-info-container h2{
+        font-size: 28px;
+    }
+
+    .extra-info-container p{
+        font-size: 15px;
     }
 }
